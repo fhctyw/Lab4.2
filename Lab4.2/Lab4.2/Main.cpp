@@ -10,7 +10,7 @@ int main()
 
 	cout << "xp = "; cin >> xp;
 	cout << "xk = "; cin >> xk;
-	cout << "dx = "; cin >> dx;
+	cout << "dx = "; cin >> dx;	
 	cout << fixed;
 	cout << "---------------------------" << endl;
 	cout << "|" << setw(5) << "x" << " |" << setw(7) << "y" << " |" << endl;
@@ -28,7 +28,6 @@ int main()
 				B = log(abs(x+2));
 			else
 				B = pow(cos(1. / abs(x + 2)), 2);
-			
 
 		y = A - B;
 		cout << "|" << setw(7) << setprecision(2) << x
