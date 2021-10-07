@@ -17,9 +17,9 @@ int main()
 	cout << "xk = "; cin >> xk;
 	cout << "dx = "; cin >> dx;	
 	cout << fixed;
-	cout << "---------------------------" << endl;
-	cout << "|" << setw(5) << "x" << " |" << setw(7) << "y" << " |" << endl;
-	cout << "---------------------------" << endl;
+	cout << "----------------------" << endl;
+	cout << "|" << setw(7) << "x" << " |" << setw(10) << "y" << " |" << endl;
+	cout << "----------------------" << endl;
 
 	x = xp;
 	while (x <= xk)
@@ -41,6 +41,6 @@ int main()
 
 		x += dx;
 	}
-	cout << "---------------------------" << endl;
+	cout << "----------------------" << endl;
 	return 0;
 }
